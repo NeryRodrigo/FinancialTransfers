@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialTransfers.Domain", "FinancialTransfers.Domain\FinancialTransfers.Domain.csproj", "{51C1402A-95B7-4FF6-BC90-054D87B610D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialTransfers.Application", "FinancialTransfers.Application\FinancialTransfers.Application.csproj", "{72CF0B9B-51C5-4217-93E1-860F2E4BC2D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialTransfers.Infraestructure", "FinancialTransfers.Infraestructure\FinancialTransfers.Infraestructure.csproj", "{485CE70A-63CC-43F8-AA30-6A963CE141CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialTransfers.API", "FinancialTransfers.API\FinancialTransfers.API.csproj", "{0DB56788-5D6D-4EDB-ADFB-9E6F6504AE73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialTransfers.RiskEngine", "FinancialTransfers.RiskEngine\FinancialTransfers.RiskEngine.csproj", "{A6D0FB69-B28E-4F6E-A352-FB290914BB68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51C1402A-95B7-4FF6-BC90-054D87B610D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C1402A-95B7-4FF6-BC90-054D87B610D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C1402A-95B7-4FF6-BC90-054D87B610D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C1402A-95B7-4FF6-BC90-054D87B610D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72CF0B9B-51C5-4217-93E1-860F2E4BC2D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CF0B9B-51C5-4217-93E1-860F2E4BC2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CF0B9B-51C5-4217-93E1-860F2E4BC2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CF0B9B-51C5-4217-93E1-860F2E4BC2D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{485CE70A-63CC-43F8-AA30-6A963CE141CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485CE70A-63CC-43F8-AA30-6A963CE141CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485CE70A-63CC-43F8-AA30-6A963CE141CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485CE70A-63CC-43F8-AA30-6A963CE141CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB56788-5D6D-4EDB-ADFB-9E6F6504AE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB56788-5D6D-4EDB-ADFB-9E6F6504AE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB56788-5D6D-4EDB-ADFB-9E6F6504AE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB56788-5D6D-4EDB-ADFB-9E6F6504AE73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D0FB69-B28E-4F6E-A352-FB290914BB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D0FB69-B28E-4F6E-A352-FB290914BB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D0FB69-B28E-4F6E-A352-FB290914BB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D0FB69-B28E-4F6E-A352-FB290914BB68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {875DA4C7-3D94-4007-A9D5-0D04292C2AAB}
+	EndGlobalSection
+EndGlobal

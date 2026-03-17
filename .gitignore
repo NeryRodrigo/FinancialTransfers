@@ -1,0 +1,70 @@
+## .NET Core / .NET 8 Standard ##
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Tt]emp/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+
+# NuGet Packages
+*.nuget.props
+*.nuget.targets
+packages/
+
+# Entity Framework Core
+# Nota: NO ignores la carpeta 'Migrations', esa SÍ debe subirse.
+
+# Docker
+.dockerignore
+
+# SQL Server files (si se crearon fuera de Docker)
+*.mdf
+*.ldf
+*.bak
+
+# Kafka/Zookeeper logs (si se montaron localmente)
+/data/
+/logs/
+
+# Secrets and environment files
+.env
+.env.*
+appsettings.Development.json.user
+secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test Results
+TestResults/
+*.trx
+*.html
